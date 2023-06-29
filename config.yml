@@ -1,3 +1,14 @@
 baseURL: https://modernmannz.com/
 languageCode: en-us
 title: Modern Man Barbershop
+
+
+redirects:
+  - from: "/"
+    to: "https://modernman.nz/"
+    status: 301
+    force: true
+    conditions:
+      Language: ["en"]
+      Country: ["US"]
+      Role: ["admin"]
